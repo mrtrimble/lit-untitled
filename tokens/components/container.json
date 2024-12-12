@@ -1,0 +1,10 @@
+{
+  "container": {
+    "max-width": {
+      "value": "80ch"
+    },
+    "inline-padding": {
+      "value": "{space.sm}"
+    }
+  }
+}

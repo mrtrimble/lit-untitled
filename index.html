@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon"
+        type="image/svg+xml"
+        href="/vite.svg" />
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+
+  <script type="module"
+          src="/src/main.ts"></script>
+
+  <script type="module"
+          src="/src/compositions/untitled-card-stack.ts"></script>
+
+  <link rel="stylesheet"
+        href="src/styles/index.css">
+  <link rel="stylesheet"
+        href="src/styles/reset.css">
+  <link rel="stylesheet"
+        href="src/styles/tokens.css">
+  <link rel="stylesheet"
+        href="src/styles/typography.css">
+  <link rel="stylesheet"
+        href="src/styles/utilities.css">
+
+
+
+</head>
+
+<body class="flow">
+  <header>
+    <untitled-container>
+      <div id="logo">
+        <a href="/">Logo</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">Services</a></li>
+        </ul>
+      </nav>
+    </untitled-container>
+  </header>
+  <main>
+    <untitled-container class="flow">
+      <untitled-message type="error">
+        <p>This is very much a work in progress, come back later!</p>
+      </untitled-message>
+
+      <untitled-card-stack></untitled-card-stack>
+    </untitled-container>
+  </main>
+
+  <script type="module">
+    import { html } from 'lit';
+
+    const cardstack = document.querySelector('untitled-card-stack');
+
+    cardstack.cards = [
+      {
+        id: 0,
+        headline: 'The quick brown fox',
+        subtitle: 'Jumping over that lazy dog',
+        image:
+          'https://images.unsplash.com/photo-1541623089466-8e777dd05d70?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        content: html`<p>This is a test!</p>`,
+      },
+      {
+        id: 1,
+        headline: 'The quick brown fox',
+        subtitle: 'Jumping over that lazy dog',
+        image:
+          'https://images.unsplash.com/photo-1541623089466-8e777dd05d70?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        content: html`<p>This is a test!</p>`,
+      },
+      {
+        id: 2,
+        headline: 'The quick brown fox',
+        subtitle: 'Jumping over that lazy dog',
+        image:
+          'https://images.unsplash.com/photo-1541623089466-8e777dd05d70?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        content: html`<p>This is a test!</p>`,
+      },
+      {
+        id: 3,
+        headline: 'The quick brown fox',
+        subtitle: 'Jumping over that lazy dog',
+        image:
+          'https://images.unsplash.com/photo-1541623089466-8e777dd05d70?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        content: html`<p>This is a test!</p>`,
+      }
+    ]
+  </script>
+</body>
+
+</html>

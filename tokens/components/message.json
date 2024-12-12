@@ -1,0 +1,15 @@
+{
+  "message": {
+    "color": { "value": "inherit" },
+    "background-color": { "value": "light-dark(#EFEFEF, #3333)" },
+    "padding": {
+      "block": { "value": "{space.sm}" },
+      "inline": { "value": "{space.xs}" }
+    },
+    "border": {
+      "color": { "value": "light-dark(color-mix(in srgb, #EFEFEF, #000 20%), color-mix(in srgb, #333, #FFF 20%))" },
+      "width": { "value": "{space.2xs}" },
+      "style": { "value": "solid" }
+    }
+  }
+}

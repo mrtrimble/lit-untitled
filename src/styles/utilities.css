@@ -1,0 +1,10 @@
+@layer utilities {
+  .flow {
+    > * {
+      margin: 0;
+    }
+    > * + * {
+      margin-block-start: var(--flow-space, var(--space-sm));
+    }
+  }
+}

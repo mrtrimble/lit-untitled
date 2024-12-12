@@ -1,0 +1,16 @@
+{
+  "card": {
+    "background-color": { "value": "canvas" },
+    "border": {
+      "color": { "value": "#EFEFEF" },
+      "width": { "value": "0.5px" },
+      "style": { "value": "solid" },
+      "radius": { "value": "{space.2xs}" }
+    },
+    "content": {
+      "margin-inline": { "value": "{space.sm}" }
+    },
+    "flow-space": { "value": "{space.sm}" },
+    "text-color": { "value": "inherit" }
+  }
+}

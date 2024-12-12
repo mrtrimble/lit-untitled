@@ -1,0 +1,42 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --card-background-color: canvas;
+  --card-border-color: #EFEFEF;
+  --card-border-width: 0.5px;
+  --card-border-style: solid;
+  --card-border-radius: clamp(0.5625rem, 0.5408rem + 0.1087vw, 0.625rem);
+  --card-content-margin-inline: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+  --card-flow-space: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+  --card-text-color: inherit;
+  --container-max-width: 80ch;
+  --container-inline-padding: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+  --grid-min: 20ch;
+  --grid-gap: clamp(1.6875rem, 1.6223rem + 0.3261vw, 1.875rem);
+  --message-color: inherit;
+  --message-background-color: light-dark(#EFEFEF, #3333);
+  --message-padding-block: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+  --message-padding-inline: clamp(0.875rem, 0.8533rem + 0.1087vw, 0.9375rem);
+  --message-border-color: light-dark(color-mix(in srgb, #EFEFEF, #000 20%), color-mix(in srgb, #333, #FFF 20%));
+  --message-border-width: clamp(0.5625rem, 0.5408rem + 0.1087vw, 0.625rem);
+  --message-border-style: solid;
+  --space-3xs: clamp(0.3125rem, 0.3125rem + 0vw, 0.3125rem);
+  --space-2xs: clamp(0.5625rem, 0.5408rem + 0.1087vw, 0.625rem);
+  --space-xs: clamp(0.875rem, 0.8533rem + 0.1087vw, 0.9375rem);
+  --space-sm: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+  --space-md: clamp(1.6875rem, 1.6223rem + 0.3261vw, 1.875rem);
+  --space-lg: clamp(2.25rem, 2.163rem + 0.4348vw, 2.5rem);
+  --space-xl: clamp(3.375rem, 3.2446rem + 0.6522vw, 3.75rem);
+  --space-2xl: clamp(4.5rem, 4.3261rem + 0.8696vw, 5rem);
+  --space-3xl: clamp(6.75rem, 6.4891rem + 1.3043vw, 7.5rem);
+  --text-size-2xs: clamp(0.7813rem, 0.7747rem + 0.0326vw, 0.8rem);
+  --text-size-xs: clamp(0.9375rem, 0.9158rem + 0.1087vw, 1rem);
+  --text-size-md: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+  --text-size-lg: clamp(1.35rem, 1.2761rem + 0.3696vw, 1.5625rem);
+  --text-size-xl: clamp(1.62rem, 1.5041rem + 0.5793vw, 1.9531rem);
+  --text-size-2xl: clamp(1.9438rem, 1.7707rem + 0.8652vw, 2.4413rem);
+  --text-size-3xl: clamp(2.3325rem, 2.0823rem + 1.2511vw, 3.0519rem);
+  --text-size-4xl: clamp(2.7994rem, 2.4461rem + 1.7663vw, 3.815rem);
+}

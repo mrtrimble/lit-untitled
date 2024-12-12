@@ -1,0 +1,27 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "files": [
+        {
+          "destination": "./src/styles/tokens.css",
+          "format": "css/variables"
+        }
+      ]
+    },
+    "ts": {
+      "transformGroup": "js",
+      "files": [
+        {
+          "format": "javascript/es6",
+          "destination": "./src/tokens/index.js"
+        },
+        {
+          "format": "typescript/es6-declarations",
+          "destination": "./src/tokens/index.d.ts"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "grid": {
+    "min": { "value": "20ch" },
+    "gap": { "value": "{space.md}" }
+  }
+}
