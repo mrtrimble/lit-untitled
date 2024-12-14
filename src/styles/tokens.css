@@ -13,6 +13,14 @@
   --card-text-color: inherit;
   --container-max-width: 80ch;
   --container-inline-padding: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+  --drawer-background-color: canvas;
+  --drawer-text-color: canvasText;
+  --drawer-padding-inline: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+  --drawer-padding-block: clamp(2.25rem, 2.163rem + 0.4348vw, 2.5rem);
+  --drawer-width: 40ch;
+  --drawer-transition: 0.25s ease;
+  --drawer-flow-space: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+  --drawer-border: 3px solid transparent;
   --grid-min: 20ch;
   --grid-gap: clamp(1.6875rem, 1.6223rem + 0.3261vw, 1.875rem);
   --message-color: inherit;

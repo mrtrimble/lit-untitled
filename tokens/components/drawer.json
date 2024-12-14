@@ -1,0 +1,17 @@
+{
+  "drawer": {
+    "background-color": {
+      "value": "canvas"
+    },
+    "text-color": { "value": "canvasText" },
+    "padding": {
+      "inline": { "value": "{space.sm}" },
+      "block": { "value": "{space.lg}" }
+    },
+    "width": { "value": "40ch" },
+    "transition": { "value": "0.25s ease" },
+    "flow-space": { "value": "{space.sm}" },
+    
+    "border": { "value": "3px solid transparent" }
+  }
+}

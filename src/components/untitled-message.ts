@@ -10,6 +10,12 @@ import {
   MessagePaddingInline,
 } from '../tokens';
 
+/**
+ * Container component
+ *
+ * @slot - This element has a slot
+ * @csspart message
+ */
 @customElement('untitled-message')
 export class UntitledMessage extends LitElement {
   static styles = [
@@ -37,7 +43,7 @@ export class UntitledMessage extends LitElement {
 
   render() {
     return html`
-      <div class=${['message', this.type ?? nothing].join(' ')}>
+      <div class=${['message', this.type ?? nothing].join(' ')} part="message">
         <slot></slot>
       </div>
     `;

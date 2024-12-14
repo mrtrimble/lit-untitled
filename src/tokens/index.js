@@ -15,6 +15,15 @@ export const CardTextColor = "inherit";
 export const ContainerMaxWidth = "80ch";
 export const ContainerInlinePadding =
   "clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem)";
+export const DrawerBackgroundColor = "canvas";
+export const DrawerTextColor = "canvasText";
+export const DrawerPaddingInline =
+  "clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem)";
+export const DrawerPaddingBlock = "clamp(2.25rem, 2.163rem + 0.4348vw, 2.5rem)";
+export const DrawerWidth = "40ch";
+export const DrawerTransition = "0.25s ease";
+export const DrawerFlowSpace = "clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem)";
+export const DrawerBorder = "3px solid transparent";
 export const GridMin = "20ch";
 export const GridGap = "clamp(1.6875rem, 1.6223rem + 0.3261vw, 1.875rem)";
 export const MessageColor = "inherit";

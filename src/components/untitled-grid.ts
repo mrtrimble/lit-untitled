@@ -2,6 +2,12 @@ import { LitElement, html, css, unsafeCSS } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { GridGap, GridMin } from '../tokens';
 
+/**
+ * Container component
+ *
+ * @slot - This element has a slot
+ * @csspart grid
+ */
 @customElement('untitled-grid')
 export class UntitledGrid extends LitElement {
   static styles = [
@@ -24,7 +30,7 @@ export class UntitledGrid extends LitElement {
 
   render() {
     return html`
-      <div class="grid">
+      <div class="grid" part="grid">
         <slot></slot>
       </div>
     `;

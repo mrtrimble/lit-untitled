@@ -1,8 +1,16 @@
 {
-  "name": "lit-demo",
-  "private": true,
+  "name": "untitled-style",
   "version": "0.0.0",
   "type": "module",
+  "files": [
+    "dist/"
+  ],
+  "author": "Ryan Trimble",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrtrimble/lit-untitled"
+  },
   "scripts": {
     "dev": "vite",
     "build": "style-dictionary build && tsc && vite build",
