@@ -5,7 +5,7 @@
       "transformGroup": "css",
       "files": [
         {
-          "destination": "./src/styles/tokens.css",
+          "destination": "./lib/styles/tokens.css",
           "format": "css/variables"
         }
       ]
@@ -15,11 +15,11 @@
       "files": [
         {
           "format": "javascript/es6",
-          "destination": "./src/tokens/index.js"
+          "destination": "./lib/tokens/index.js"
         },
         {
           "format": "typescript/es6-declarations",
-          "destination": "./src/tokens/index.d.ts"
+          "destination": "./lib/tokens/index.d.ts"
         }
       ]
     }
